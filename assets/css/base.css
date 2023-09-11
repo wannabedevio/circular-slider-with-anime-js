@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway:300,400,900');
+
+/* Header */
+.wannabedev-header {
+    position: fixed;
+    display: block;
+    width: 96%;
+    width: calc( 100% - 32px );
+    height: 40px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    top: 16px; right: 16px; left: 16px;
+    z-index: 1000;
+}
+
+.wannabedev-header .wannabedev-links a:first-child {
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 24px;
+    padding: 7px;
+    color: rgba(0,0,0,0.75);
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    outline: 0px none;
+    outline: 0px;
+    transition: all .3s ease;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: left;
+}
+
+.wannabedev-header .wannabedev-links a:first-child:hover {
+    color: rgba(0,0,0,1);
+}
+
+.wannabedev-header .wannabedev-links a:last-child {
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 24px;
+    padding: 7px;
+    color: rgba(0,0,0,0.75);
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    outline: 0px none;
+    outline: 0px;
+    transition: all .3s ease;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    text-align: right;
+}
+
+.wannabedev-header .wannabedev-links a:last-child:hover {
+    color: rgba(0,0,0,1);
+}
+
+.wannabedev-header .wannabedev-links .wannabedev-header {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+    padding: 17px 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 360px) {
+    .wannabedev-header .wannabedev-links .wannabedev-header {
+        font-size: 12px; 
+    }
+}
